@@ -23,7 +23,7 @@ namespace OrleansWebAPI7AppDemo.Controllers
         [HttpGet()]
         public IEnumerable<string> TestArray()
         {
-            string[] items = new string[] { "あいうえお", "かきくけこ", "さしすせそ" };
+            string[] items = new string[] { "12345", "678910", "1112131415" };
             return items;
         }
 
@@ -31,7 +31,7 @@ namespace OrleansWebAPI7AppDemo.Controllers
         public Animal TestObject()
         {
             Animal animal_1 = new Animal();
-            animal_1.Name = "いぬ";
+            animal_1.Name = "さる";
             return animal_1;
         }
 
